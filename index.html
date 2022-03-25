@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Invoice Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="invoice-container">
+      <div id="header-invoice">
+        <h2>Invoice creator</h2>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+      </div>
+      <div id="invoice-hero">
+        <div id="invoice-btn">
+          <button class="btn" id="wash-car">Wash car: $10</button>
+          <button class="btn" id="mow-lawn">Mow Lawn: $20</button>
+          <button class="btn" id="pull-weeds">Pull Weeds: $30</button>
+        </div>
+        <div id="invoice-task">
+          <h5>TASK</h5>
+          <h5>TOTAL</h5>
+        </div>
+        <div id="invoice-genarator"></div>
+        <div id="invoice-total-heading">
+          <h5>NOTES</h5>
+          <h5>TOTAL AMOUNT</h5>
+        </div>
+        <div id="invoice-total">$0</div>
+
+        <div id="invoice-footer">
+          <button>Send invoice</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
